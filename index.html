@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <h1>Калькулятор калорий</h1>
+    <form name="rsc" class="rsc">
+      <p>Ваше имя:<br>
+        <input type="text" class="firstname" size="40">
+      </p>
+      <p>Пол:<br>
+        <input type="radio" name="gender" class="gender"><span>женский</span>
+        <input type="radio" name="gender" class="gender"><span>мужской</span>
+      </p>
+      <p>Рост, см:<br>
+        <input type="number" class="growth" size="40">
+      </p>
+      <p>Вес, кг:<br>
+        <input type="number" class="weight"  size="40">
+      </p>
+      <p><input type="button" class="calculate" value="Рассчитать РСК">
+      <input type="reset" value="Очистить"></p>
+      <p class="daily-rsc"></p>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+
+</html>
