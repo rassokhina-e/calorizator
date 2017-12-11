@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+.parametrs {
+  margin: 0;
+  padding: 2% 5%;
+  width: 40%;
+}
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.9;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  color: #000;
+}
+.firstform-style {
+  margin: auto;
+  padding: 0 5%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: #000;
+}
+p {
+  padding: 5px 10px;
+  margin: 15px;
+}
+.firstformInput-style {
+  margin-left: 5%;
+  background-color: rgb(240,248,255);
+}
+.btn-style {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  background: #76B3FA;
+  border-radius: 100px;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 40px;
+  outline: none;
+}
+.btnProduct-style {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  border-radius: 100px;
+  padding: 5px 20px;
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px auto;
+  opacity: 0.85;
+  outline: none;
+}
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+.js-secondformStyle {
+  float: left;
+  margin: auto;
+  width: 30%;
+}
+.commonForm {
+  padding: 5% 2%;
+  margin: auto;
+  background-color: rgb(240,248,255);
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.li-count {
+  display: inline-block;
+  width: 60%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 15px auto;
+}
+input {
+  background-color: rgb(240,248,255);
+}

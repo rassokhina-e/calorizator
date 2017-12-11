@@ -4,28 +4,38 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Source+Sans+Pro:400,600,700|PT+Sans" rel="stylesheet">
   </head>
 
   <body>
-    <h1>Калькулятор калорий</h1>
-    <form name="rsc" class="rsc">
-      <p>Ваше имя:<br>
-        <input type="text" class="firstname" size="40">
-      </p>
-      <p>Пол:<br>
-        <input type="radio" name="gender" class="gender"><span>женский</span>
-        <input type="radio" name="gender" class="gender"><span>мужской</span>
-      </p>
-      <p>Рост, см:<br>
-        <input type="number" class="growth" size="40">
-      </p>
-      <p>Вес, кг:<br>
-        <input type="number" class="weight"  size="40">
-      </p>
-      <p><input type="button" class="calculate" value="Рассчитать РСК">
-      <input type="reset" value="Очистить"></p>
-      <p class="daily-rsc"></p>
-    </form>
+    <div class="parametrs">
+      <h1>Калькулятор калорий</h1>
+      <form name="rsc" class="rsc firstform-style">
+        <p>Ваше имя:
+          <input type="text" class="firstname firstformInput-style" size="40" required>
+        </p>
+        <p>Пол:
+          <input type="radio" name="gender" class="gender firstformInput-style"><span>женский</span>
+          <input type="radio" name="gender" class="gender firstformInput-style"><span>мужской</span>
+        </p>
+        <p>Рост, см:
+          <input type="number" class="growth firstformInput-style" size="40" required>
+        </p>
+        <p>Вес, кг:
+          <input type="number" class="weight firstformInput-style"  size="40" required>
+        </p>
+        <p>Количество лет:
+          <input type="number" class="year firstformInput-style"  size="40" required>
+        </p>
+        <p><input type="submit" class="calculate btn-style" value="Рассчитать РСК">
+        <input type="reset" class="btn-style" value="Очистить форму"></p>
+        <p class="daily-rsc"></p>
+      </form>
+    </div>
+
+    <div class='js-commonForm commonForm clearfix'></div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script type='module' src="./index.js"></script>
     <script src="./script.js"></script>
   </body>
 
